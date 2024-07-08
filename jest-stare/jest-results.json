@@ -1,0 +1,122 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 4,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 4,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1720467867073,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1720467870350,
+        "runtime": 3192,
+        "slow": false,
+        "start": 1720467867158
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\Samsung\\Desktop\\pós\\meuteste\\test\\conteudo\\crud-conteudo.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Descrição da suíte de testes"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Descrição da suíte de testes Teste 01: Cadastrando novo conteudo, e validando dados enviados e statusCode 201.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 6,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Teste 01: Cadastrando novo conteudo, e validando dados enviados e statusCode 201."
+        },
+        {
+          "ancestorTitles": [
+            "Descrição da suíte de testes"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Descrição da suíte de testes Teste 02: deve consultar o registro cadastrado anteriormente, e validar resultado e statusCode",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 6,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Teste 02: deve consultar o registro cadastrado anteriormente, e validar resultado e statusCode"
+        },
+        {
+          "ancestorTitles": [
+            "Descrição da suíte de testes"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Descrição da suíte de testes Teste 03: deve alterar o conteudo cadastrado anteriormente, e validar que os dados realmente foram alterados e validar statusCode",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 7,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Teste 03: deve alterar o conteudo cadastrado anteriormente, e validar que os dados realmente foram alterados e validar statusCode"
+        },
+        {
+          "ancestorTitles": [
+            "Descrição da suíte de testes"
+          ],
+          "duration": 14,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Descrição da suíte de testes Teste 04: deve remover o registro cadastrado, e validar a consulta do registro para garantir sua remoção.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Teste 04: deve remover o registro cadastrado, e validar a consulta do registro para garantir sua remoção."
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
